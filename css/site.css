@@ -96,8 +96,35 @@ h2 {
   color: #871719;
 }
 
+/* ** MENU STYLING ** */
+h4 {
+    font-size: 1.4rem;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin: 1em 0 .5em 0;
+}
+
+#foodmenu .menu {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.menu-head {
+  text-align: left;
+}
+
+.menu-price {
+    color: #871719;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: right;
+}
+
 /* ** NEWSLETTER STYLING ** */
-.nwsltr-label {
+/*.nwsltr-label {
   margin: 0 0 16px 0;
 }
 
@@ -131,4 +158,57 @@ h2 {
 
 .small-txt {
   font-size: .8rem;
+}*/
+
+/****** Newsletter ******/
+
+.nwsltr-label {
+    display: block;
+    margin: 0 0 16px 0;
+}
+
+.nwsltr-input {
+    display: block;
+    width: 100%;
+    border: 1px solid #c0af8e;
+    border-radius: 3px;
+    height: 40px;
+    padding: 8px;
+    margin: 0 0 10px 0;
+    font-size: 1rem;
+}
+
+.nwsltr-btn {
+    display: block;
+    width: 100%;
+    background-color: #871719;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 40px;
+}
+
+.nwsltr-btn:disabled {
+  opacity: .5;
+}
+
+.nwsltr-btn:hover {
+  background-color: #800080;
+}
+
+.nwsltr {
+  background-color: #E8D5B5;
+}
+
+.small-txt, .validation-message {
+  font-size: .8rem;
+}
+
+.validation-message {
+  color: #ff0000;
+  display: none;
+  margin: .5rem 0;
 }
